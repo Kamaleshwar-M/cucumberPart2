@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verifying Adactine Details with valid credential",
+        "description": "",
+        "id": "verifying-adactine-details;verifying-adactine-details-with-valid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7107779300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User in on Adactine Login Page",
+            "match": {
+              "location": "BookingStep.user_in_on_Adactine_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2398723200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should enter \"Kamaleshwar\" and \"Kamal@2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kamaleshwar\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Kamal@2017\"",
+                  "offset": 36
+                }
+              ],
+              "location": "BookingStep.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1516254900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "On Search Hotel Page User should enter \"Brisbane\",\"Hotel Sunshine\" and \"Deluxe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 71
+                }
+              ],
+              "location": "BookingStep.on_Search_Hotel_Page_User_should_enter_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 938296100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "On Select Hotel page User should select Hotel and click Continue",
+            "match": {
+              "location": "BookingStep.on_Search_Hotel_page_User_should_select_Hotel_and_click_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4223215300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "On Booking Page User should enter \"Kamaleshwar\",\"Murthy\",\"Chennai, Tamilnadu\",\"1111222233334444\",\"VISA\",\"August\",\"2021\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kamaleshwar\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Murthy\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Chennai, Tamilnadu\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"1111222233334444\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"August\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 113
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 124
+                }
+              ],
+              "location": "BookingStep.on_Booking_Page_User_should_enter_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2850698100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should print Booking order number",
+            "match": {
+              "location": "BookingStep.user_should_print_Booking_order_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1333910900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should verify success message",
+            "match": {
+              "location": "BookingStep.user_should_verify_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Verifying Adactine Details with valid credential",
+        "description": "",
+        "id": "verifying-adactine-details;verifying-adactine-details-with-valid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4814517700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User in on Adactine Login Page",
+            "match": {
+              "location": "BookingStep.user_in_on_Adactine_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1373502900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should enter \"Kamaleshwar\" and \"Kamal@2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kamaleshwar\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Kamal@2017\"",
+                  "offset": 36
+                }
+              ],
+              "location": "BookingStep.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1479578700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "On Search Hotel Page User should enter \"Brisbane\",\"Hotel Sunshine\" and \"Deluxe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 71
+                }
+              ],
+              "location": "BookingStep.on_Search_Hotel_Page_User_should_enter_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 731445600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "On Select Hotel page User should select Hotel and click Continue",
+            "match": {
+              "location": "BookingStep.on_Search_Hotel_page_User_should_select_Hotel_and_click_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1176328500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should verify success message",
+            "match": {
+              "location": "BookingStep.user_should_verify_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactine Details",
+    "description": "",
+    "id": "verifying-adactine-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
